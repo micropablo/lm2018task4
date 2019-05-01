@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+ <category>
+<pattern>Hola</pattern>
+<template>Hola como estas! Soy tu guia turistico</template>
+</category> 
+    <category>
+<pattern>yo soy  *</pattern>  
+<template>Tu eres <person><star/></person></template>  
+</category>
+<category>
+    <pattern>HABLAME SOBRE *</pattern>
+    <template>Aqui tienes un poco de informacion sobre <star/>
+    <button>
+        <text>PRESIONAME</text>
+        <url>https://es.wikipedia.org/wiki/<star/></url>
+    </button></template>
+</category>
+<category>
+    <pattern>MUESTRAME UN MAPA DE *</pattern>
+    <template>Seguro que si, a continuacion te muestro el mapa <star/>
+    <button>
+    <text>PRESIONA AQUI PARA VER EL MAPA</text>
+    <url>https://www.google.co.uk/maps?q=<star/></url>
+     </button>
+    </template>
+</category>
+<category>
+    <pattern>Que tiempo hace en *</pattern>
+    <template>Espero que haga un buen dia en <star/>
+    <button>
+        <text>PRESIONA PARA VER EL TIEMPO</text>
+        <url>https://www.weather-forecast.com/locations/<star/>/forecasts/latest</url>
+    </button>
+    </template>
+    </category>
+ 
+<category>
+<pattern>esta el tiempo <set>tiempo</set></pattern>
+<template>si, el tiempo esta regular hoy </template>
+</category>
+
+<category>
+<pattern>esta el tiempo * </pattern>
+<template>No, el tiempo no esta <star/></template>
+</category>
+   <category>
+      <pattern>Hablamos de transporte</pattern>
+      <template>Lo necesitas para ciudad o afueras</template>  
+   </category>
+   
+   <category>
+      <pattern>ciudad</pattern>
+      <that>Lo necesitas para ciudad o afueras</that>
+      <template>Super, TE recomiendo el autobus que es mas barato que el taxi.</template>
+   </category>
+   
+   <category>
+      <pattern>afueras</pattern>
+      <that>Lo necesitas para ciudad o afueras</that>
+      <template>Ok! Puedes coger un coche o una moto, aunque la moto es mas peligrosa.</template>
+   </category> 
+       <category>
+<pattern>  Me podrias enseñar un <set>guia</set></pattern>
+<template>si, la catedral de palma es un <star /> muy importante.</template>
+</category>
+
+
+       <category>
+<pattern> Necesito un <set>guia</set></pattern>
+<template>claro, hay un <star /> que sale de la plaza españa.</template>
+</category>
+ <category>
+<pattern> Me puedes decir el <set>guia</set> del autobus turistico</pattern>
+<template>claro, 14 euros por 48 horas disfrutalo.</template>
+</category>
+ <category>
+<pattern> me puedes decir que <set>guia</set>  visita el autobus turistico</pattern>
+<template>claro, la catedral de palma,el castillo de bellver y el paseo maritimo.</template>
+</category>
+</aiml>

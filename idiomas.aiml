@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+    <pattern>Cual es el idioma de albania </pattern>
+    <template>El albanes.</template>
+    </category>  
+
+<category>   
+<pattern>Cual es el idioma de alemania</pattern>
+    <template>El aleman</template>
+    </category>  
+
+<category>
+    <pattern>Cual es el idioma de andorra</pattern>
+    <template>el catalan.</template>
+    </category>  
+
+<category>
+    <pattern>cual es el idioma de armenia</pattern>
+    <template>el armenio</template>
+    </category>
+  
+
+<category>
+    <pattern>cual es el idioma de austria</pattern>
+    <template>el aleman</template>
+    </category>  
+
+<category>
+    <pattern>cual es el idioma de azerbaiyan</pattern>
+    <template>El azeri</template>
+    </category>  
+
+<category>
+    <pattern>cual es el idioma de belgica</pattern>
+    <template>neerlandes,frances y aleman</template>
+    </category>  
+
+<category>
+    <pattern>cual es el idioma de bielorrusia</pattern>
+    <template>bielorruso y ruso.</template>
+    </category>  
+
+<category>
+    <pattern>cual es el idioma de bulgaria</pattern>
+    <template>el bulgaro</template>
+    </category>  
+
+<category>
+    <pattern>cual es el idioma de chipre</pattern>
+    <template>griego y turco.</template>
+    </category>  
+
+<category>
+    <pattern>cual es el idioma de ciudad del vaticano</pattern>
+    <template>latin y italiano</template>
+    </category>  
+
+<category>
+    <pattern>cual es el idioma de croacia</pattern>
+    <template>el croata</template>
+    </category>  
+<category>
+<pattern>es   una moneda  el <set>monedas</set></pattern>
+<template>si, es una moneda de curso legal </template>
+</category>
+
+<category>
+<pattern>es una moneda * </pattern>
+<template>No, no es una moneda </template>
+</category>
+insert your AIML categories here -->
+</aiml>

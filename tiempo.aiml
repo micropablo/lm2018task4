@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+        <pattern><set>tiempos</set>el tiempo esta</pattern>
+        <template>si>el tiempo esta <star/></template>
+    </category>
+    <category>
+        <pattern>el tiempo esta * </pattern>
+        <template>no,el tiempo no esta <star/></template>
+    </category>
+</aiml>
